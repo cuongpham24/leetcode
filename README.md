@@ -1,21 +1,3 @@
-# Data Filtering
-<div align="center">
+[30 Days of Pandas](https://leetcode.com/studyplan/30-days-of-pandas/)
 
-| Problem Title                 | Difficulty Level |
-|-------------------------------|------------------|
-| Big Countries                 | Easy             |
-| Recyclable and Low Fat Products | Easy             |
-| Customers Who Never Order     | Easy             |
-| Article Views I               | Easy             |
-
-</div>
-
-# String Methods
-<div align="center">
-
-
-| Problem Title                 | Difficulty Level |
-|-------------------------------|------------------|
-| Invalid Tweets                 | Easy             |
-
-</div>
+[Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
