@@ -44,10 +44,27 @@ nums2.length == n
 Follow up: Can you come up with an algorithm that runs in O(m + n) time?
 """
 
-class Solution:
-    def merge(self, nums1: list[int], m: int, nums2: list[int], n: int) -> None:
+class Solution(object):
+    def merge(self, nums1, m, nums2, n):
         """
-        Do not return anything, modify nums1 in-place instead.
+        :type nums1: List[int]
+        :type m: int
+        :type nums2: List[int]
+        :type n: int
+        :rtype: None Do not return anything, modify nums1 in-place instead.
         """
-        nums1[m:m+n] = nums2[:n]
-        nums1.sort()
+        # pointer j for num1 and k for num2
+        j = m - 1
+        k = n - 1
+        if k == -1:
+            return
+
+        for i in range(len(nums1) - 1, -1, -1):
+            if j < 0 or nums1[j] <= nums2[k]:
+                nums1[i] = nums2[k]
+                k -= 1
+            else:
+                nums1[i] = nums1[j]
+                j -= 1
+            if k < 0:
+                break
