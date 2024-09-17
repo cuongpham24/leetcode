@@ -61,3 +61,4 @@ if __name__ == "__main__":
     printTree(root)
     remove(root, 4)
     printTree(root)
+    

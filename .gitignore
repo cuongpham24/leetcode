@@ -1,0 +1,5 @@
+.Rhistory
+# .gitignore
+.DS_Store
+draft.ipynb
+__pycache__
